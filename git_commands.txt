@@ -1,0 +1,10 @@
+git --version
+cd Videos/Github_Workshop
+git init
+git status
+git config --global --add safe.directory "*"
+ls
+git add .
+git commit -m "Added testing file"
+rm testing.java
+git restore testing.java
